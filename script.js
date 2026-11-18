@@ -133,7 +133,7 @@ document.getElementById("exploreShop").addEventListener("click", () => {
 // WhatsApp checkout: replace this with your own WhatsApp number.
 document.getElementById("checkoutBtn").addEventListener("click", () => {
   if (!cart.length) return;
-  const whatsappNumber = "923XXXXXXXXX"; // Country code + number, no plus sign or spaces.
+  const whatsappNumber = "923062639984"; // Country code + number, no plus sign or spaces.
   const orderLines = cart.map((item,index) =>
     `${index + 1}. ${item.name}\nQuantity: ${item.quantity}\nPrice: ${money(item.price * item.quantity)}`
   ).join("\n\n");
